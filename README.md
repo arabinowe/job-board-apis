@@ -106,6 +106,13 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 
 ---
 
+## More guides
+
+- [How to find companies hiring for a specific role](companies-hiring-for-a-role/) (hiring signals for sales and recruiting)
+- [How to get salary data from job postings](salary-data-from-job-postings/)
+- [How to extract every URL from a website's sitemap](extract-urls-from-sitemap/)
+- [How to convert RSS and Atom feeds to JSON](rss-to-json/)
+
 ## Finding which ATS a company uses
 
 Open the company's careers page and click a job. The URL usually reveals the ATS and slug (`job-boards.greenhouse.io/stripe/…`, `jobs.lever.co/palantir/…`). With only a name, try the slug against each endpoint above and keep the board with the most open jobs: the same slug can exist on several platforms as a stale or test board.
