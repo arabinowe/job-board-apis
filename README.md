@@ -117,6 +117,7 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 - [How to take a full-page website screenshot in Python](full-page-screenshot/)
 - [How to find which email provider a company uses (MX, SPF, DMARC)](email-provider-lookup/)
 - [How to detect a website's tech stack (CMS, analytics, CDN) in Python](website-tech-stack-lookup/)
+- [How to extract emails, phone numbers and social links from a website](extract-emails-from-website/)
 
 ## Finding which ATS a company uses
 
