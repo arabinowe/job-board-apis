@@ -1,3 +1,8 @@
 title: Job Board APIs
 description: Get jobs from Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Recruitee and Workable using free public endpoints.
+url: https://arabinowe.github.io
+baseurl: /job-board-apis
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
