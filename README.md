@@ -6,13 +6,13 @@ This guide documents each endpoint with copy-paste examples, pagination rules, a
 
 | ATS | Find the slug in | Endpoint | Pagination | Salary |
 |---|---|---|---|---|
-| [Greenhouse](#greenhouse) | `boards.greenhouse.io/{slug}` | `GET boards-api.greenhouse.io/v1/boards/{slug}/jobs` | none (all jobs) | rarely |
-| [Lever](#lever) | `jobs.lever.co/{slug}` | `GET api.lever.co/v0/postings/{slug}?mode=json` | none | sometimes |
-| [Ashby](#ashby) | `jobs.ashbyhq.com/{slug}` | `GET api.ashbyhq.com/posting-api/job-board/{slug}` | none | **often** |
-| [Workday](#workday) | `{tenant}.wd{N}.myworkdayjobs.com/{site}` | `POST …/wday/cxs/{tenant}/{site}/jobs` | 20/page, max 2,000 | no |
-| [SmartRecruiters](#smartrecruiters) | `jobs.smartrecruiters.com/{slug}` | `GET api.smartrecruiters.com/v1/companies/{slug}/postings` | 100/page | no |
-| [Recruitee](#recruitee) | `{slug}.recruitee.com` | `GET {slug}.recruitee.com/api/offers/` | none | sometimes |
-| [Workable](#workable) | `apply.workable.com/{slug}` | `POST apply.workable.com/api/v3/accounts/{slug}/jobs` | token | no |
+| [Greenhouse](greenhouse-jobs-api/) | `boards.greenhouse.io/{slug}` | `GET boards-api.greenhouse.io/v1/boards/{slug}/jobs` | none (all jobs) | rarely |
+| [Lever](lever-jobs-api/) | `jobs.lever.co/{slug}` | `GET api.lever.co/v0/postings/{slug}?mode=json` | none | sometimes |
+| [Ashby](ashby-jobs-api/) | `jobs.ashbyhq.com/{slug}` | `GET api.ashbyhq.com/posting-api/job-board/{slug}` | none | **often** |
+| [Workday](workday-jobs-api/) | `{tenant}.wd{N}.myworkdayjobs.com/{site}` | `POST …/wday/cxs/{tenant}/{site}/jobs` | 20/page, max 2,000 | no |
+| [SmartRecruiters](smartrecruiters-jobs-api/) | `jobs.smartrecruiters.com/{slug}` | `GET api.smartrecruiters.com/v1/companies/{slug}/postings` | 100/page | no |
+| [Recruitee](recruitee-jobs-api/) | `{slug}.recruitee.com` | `GET {slug}.recruitee.com/api/offers/` | none | sometimes |
+| [Workable](workable-jobs-api/) | `apply.workable.com/{slug}` | `POST apply.workable.com/api/v3/accounts/{slug}/jobs` | token | no |
 
 > **Be a good citizen:** these endpoints exist so careers pages and job boards can display postings. Cache results, keep request rates modest, link back to the original posting, and don't collect personal data.
 
