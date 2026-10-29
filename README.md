@@ -115,6 +115,7 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 - [How to extract text from a PDF URL in Python](pdf-url-to-text/)
 - [How to convert a web page to clean Markdown for LLMs](web-page-to-markdown/)
 - [How to take a full-page website screenshot in Python](full-page-screenshot/)
+- [How to find which email provider a company uses (MX, SPF, DMARC)](email-provider-lookup/)
 
 ## Finding which ATS a company uses
 
