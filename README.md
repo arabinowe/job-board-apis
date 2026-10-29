@@ -113,6 +113,8 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 - [How to extract every URL from a website's sitemap](extract-urls-from-sitemap/)
 - [How to convert RSS and Atom feeds to JSON](rss-to-json/)
 - [How to extract text from a PDF URL in Python](pdf-url-to-text/)
+- [How to convert a web page to clean Markdown for LLMs](web-page-to-markdown/)
+- [How to take a full-page website screenshot in Python](full-page-screenshot/)
 
 ## Finding which ATS a company uses
 
