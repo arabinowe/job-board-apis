@@ -43,4 +43,4 @@ print(hiring_summary("airbnb", ["engineer"]))
 
 **[Hiring Companies Finder](https://apify.com/signalfeed/hiring-companies-finder)** does all of this over a verified directory of 4,400+ companies: type a role and location, and get one row per hiring company with open and matching jobs, remote share, top locations and departments, and sample titles. $10 per 1,000 companies. *(Built by the author of this guide.)*
 
-[← All job-board APIs](../)
+[← All job-board APIs](README.md)

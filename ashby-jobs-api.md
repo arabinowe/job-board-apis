@@ -19,7 +19,7 @@ curl "https://api.ashbyhq.com/posting-api/job-board/ramp?includeCompensation=tru
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Lever](../lever-jobs-api/) · [Workday](../workday-jobs-api/) · [SmartRecruiters](../smartrecruiters-jobs-api/) · [Recruitee](../recruitee-jobs-api/) · [Workable](../workable-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Lever](lever-jobs-api.md) · [Workday](workday-jobs-api.md) · [SmartRecruiters](smartrecruiters-jobs-api.md) · [Recruitee](recruitee-jobs-api.md) · [Workable](workable-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 

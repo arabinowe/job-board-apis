@@ -22,7 +22,7 @@ curl -X POST "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExterna
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Lever](../lever-jobs-api/) · [Ashby](../ashby-jobs-api/) · [SmartRecruiters](../smartrecruiters-jobs-api/) · [Recruitee](../recruitee-jobs-api/) · [Workable](../workable-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Lever](lever-jobs-api.md) · [Ashby](ashby-jobs-api.md) · [SmartRecruiters](smartrecruiters-jobs-api.md) · [Recruitee](recruitee-jobs-api.md) · [Workable](workable-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 

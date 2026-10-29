@@ -19,7 +19,7 @@ curl "https://api.lever.co/v0/postings/palantir?mode=json"
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Ashby](../ashby-jobs-api/) · [Workday](../workday-jobs-api/) · [SmartRecruiters](../smartrecruiters-jobs-api/) · [Recruitee](../recruitee-jobs-api/) · [Workable](../workable-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Ashby](ashby-jobs-api.md) · [Workday](workday-jobs-api.md) · [SmartRecruiters](smartrecruiters-jobs-api.md) · [Recruitee](recruitee-jobs-api.md) · [Workable](workable-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 

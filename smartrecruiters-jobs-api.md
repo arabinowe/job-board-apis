@@ -19,7 +19,7 @@ curl "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?limit=100
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Lever](../lever-jobs-api/) · [Ashby](../ashby-jobs-api/) · [Workday](../workday-jobs-api/) · [Recruitee](../recruitee-jobs-api/) · [Workable](../workable-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Lever](lever-jobs-api.md) · [Ashby](ashby-jobs-api.md) · [Workday](workday-jobs-api.md) · [Recruitee](recruitee-jobs-api.md) · [Workable](workable-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 

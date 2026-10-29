@@ -48,4 +48,4 @@ print(len(sitemap_urls("stripe.com")))
 
 **[Sitemap URL Extractor](https://apify.com/signalfeed/sitemap-url-extractor)** handles discovery, indexes, gzip, text sitemaps, lastmod and regex filters, and optional HTTP status checks to find broken pages. $0.30 per 1,000 URLs. *(Built by the author of this guide.)*
 
-[← Home](../)
+[← Home](README.md)

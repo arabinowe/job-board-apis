@@ -40,4 +40,4 @@ print("saved example.png")
 
 **[Website Screenshot](https://apify.com/signalfeed/website-screenshot)** handles all of this: full page or viewport, desktop, tablet and mobile presets, lazy images, cookie-banner hiding, PNG/JPEG and dark mode. Failed URLs are free. $3 per 1,000 screenshots. *(Built by the author of this guide.)*
 
-[← Home](../)
+[← Home](README.md)

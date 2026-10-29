@@ -16,7 +16,7 @@ curl "https://bunq.recruitee.com/api/offers/"
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Lever](../lever-jobs-api/) · [Ashby](../ashby-jobs-api/) · [Workday](../workday-jobs-api/) · [SmartRecruiters](../smartrecruiters-jobs-api/) · [Workable](../workable-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Lever](lever-jobs-api.md) · [Ashby](ashby-jobs-api.md) · [Workday](workday-jobs-api.md) · [SmartRecruiters](smartrecruiters-jobs-api.md) · [Workable](workable-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 

@@ -6,13 +6,13 @@ This guide documents each endpoint with copy-paste examples, pagination rules, a
 
 | ATS | Find the slug in | Endpoint | Pagination | Salary |
 |---|---|---|---|---|
-| [Greenhouse](greenhouse-jobs-api/) | `boards.greenhouse.io/{slug}` | `GET boards-api.greenhouse.io/v1/boards/{slug}/jobs` | none (all jobs) | rarely |
-| [Lever](lever-jobs-api/) | `jobs.lever.co/{slug}` | `GET api.lever.co/v0/postings/{slug}?mode=json` | none | sometimes |
-| [Ashby](ashby-jobs-api/) | `jobs.ashbyhq.com/{slug}` | `GET api.ashbyhq.com/posting-api/job-board/{slug}` | none | **often** |
-| [Workday](workday-jobs-api/) | `{tenant}.wd{N}.myworkdayjobs.com/{site}` | `POST …/wday/cxs/{tenant}/{site}/jobs` | 20/page, max 2,000 | no |
-| [SmartRecruiters](smartrecruiters-jobs-api/) | `jobs.smartrecruiters.com/{slug}` | `GET api.smartrecruiters.com/v1/companies/{slug}/postings` | 100/page | no |
-| [Recruitee](recruitee-jobs-api/) | `{slug}.recruitee.com` | `GET {slug}.recruitee.com/api/offers/` | none | sometimes |
-| [Workable](workable-jobs-api/) | `apply.workable.com/{slug}` | `POST apply.workable.com/api/v3/accounts/{slug}/jobs` | token | no |
+| [Greenhouse](greenhouse-jobs-api.md) | `boards.greenhouse.io/{slug}` | `GET boards-api.greenhouse.io/v1/boards/{slug}/jobs` | none (all jobs) | rarely |
+| [Lever](lever-jobs-api.md) | `jobs.lever.co/{slug}` | `GET api.lever.co/v0/postings/{slug}?mode=json` | none | sometimes |
+| [Ashby](ashby-jobs-api.md) | `jobs.ashbyhq.com/{slug}` | `GET api.ashbyhq.com/posting-api/job-board/{slug}` | none | **often** |
+| [Workday](workday-jobs-api.md) | `{tenant}.wd{N}.myworkdayjobs.com/{site}` | `POST …/wday/cxs/{tenant}/{site}/jobs` | 20/page, max 2,000 | no |
+| [SmartRecruiters](smartrecruiters-jobs-api.md) | `jobs.smartrecruiters.com/{slug}` | `GET api.smartrecruiters.com/v1/companies/{slug}/postings` | 100/page | no |
+| [Recruitee](recruitee-jobs-api.md) | `{slug}.recruitee.com` | `GET {slug}.recruitee.com/api/offers/` | none | sometimes |
+| [Workable](workable-jobs-api.md) | `apply.workable.com/{slug}` | `POST apply.workable.com/api/v3/accounts/{slug}/jobs` | token | no |
 
 > **Be a good citizen:** these endpoints exist so careers pages and job boards can display postings. Cache results, keep request rates modest, link back to the original posting, and don't collect personal data.
 
@@ -108,16 +108,16 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 
 ## More guides
 
-- [How to find companies hiring for a specific role](companies-hiring-for-a-role/) (hiring signals for sales and recruiting)
-- [How to get salary data from job postings](salary-data-from-job-postings/)
-- [How to extract every URL from a website's sitemap](extract-urls-from-sitemap/)
-- [How to convert RSS and Atom feeds to JSON](rss-to-json/)
-- [How to extract text from a PDF URL in Python](pdf-url-to-text/)
-- [How to convert a web page to clean Markdown for LLMs](web-page-to-markdown/)
-- [How to take a full-page website screenshot in Python](full-page-screenshot/)
-- [How to find which email provider a company uses (MX, SPF, DMARC)](email-provider-lookup/)
-- [How to detect a website's tech stack (CMS, analytics, CDN) in Python](website-tech-stack-lookup/)
-- [How to extract emails, phone numbers and social links from a website](extract-emails-from-website/)
+- [How to find companies hiring for a specific role](companies-hiring-for-a-role.md) (hiring signals for sales and recruiting)
+- [How to get salary data from job postings](salary-data-from-job-postings.md)
+- [How to extract every URL from a website's sitemap](extract-urls-from-sitemap.md)
+- [How to convert RSS and Atom feeds to JSON](rss-to-json.md)
+- [How to extract text from a PDF URL in Python](pdf-url-to-text.md)
+- [How to convert a web page to clean Markdown for LLMs](web-page-to-markdown.md)
+- [How to take a full-page website screenshot in Python](full-page-screenshot.md)
+- [How to find which email provider a company uses (MX, SPF, DMARC)](email-provider-lookup.md)
+- [How to detect a website's tech stack (CMS, analytics, CDN) in Python](website-tech-stack-lookup.md)
+- [How to extract emails, phone numbers and social links from a website](extract-emails-from-website.md)
 
 ## Finding which ATS a company uses
 

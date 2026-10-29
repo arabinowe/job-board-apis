@@ -53,6 +53,6 @@ print(tech_stack("stripe.com"))
 
 **[Domain Intelligence](https://apify.com/signalfeed/domain-intelligence)** checks any list of domains for 40+ technologies with the high-precision rules above, plus registrar and expiry dates (RDAP), DNS, email provider and SPF/DMARC. $1 per 1,000 domains. *(Built by the author of this guide.)*
 
-See also: [find which email provider a company uses](../email-provider-lookup/).
+See also: [find which email provider a company uses](email-provider-lookup.md).
 
-[← Home](../)
+[← Home](README.md)

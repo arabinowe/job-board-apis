@@ -20,7 +20,7 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 
 ## Other job-board APIs
 
-[Greenhouse](../greenhouse-jobs-api/) · [Lever](../lever-jobs-api/) · [Ashby](../ashby-jobs-api/) · [Workday](../workday-jobs-api/) · [SmartRecruiters](../smartrecruiters-jobs-api/) · [Recruitee](../recruitee-jobs-api/) · [All platforms](../)
+[Greenhouse](greenhouse-jobs-api.md) · [Lever](lever-jobs-api.md) · [Ashby](ashby-jobs-api.md) · [Workday](workday-jobs-api.md) · [SmartRecruiters](smartrecruiters-jobs-api.md) · [Recruitee](recruitee-jobs-api.md) · [All platforms](README.md)
 
 ## Don't want to build and maintain this?
 
