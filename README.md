@@ -112,6 +112,7 @@ curl -X POST "https://apply.workable.com/api/v3/accounts/huggingface/jobs" \
 - [How to get salary data from job postings](salary-data-from-job-postings/)
 - [How to extract every URL from a website's sitemap](extract-urls-from-sitemap/)
 - [How to convert RSS and Atom feeds to JSON](rss-to-json/)
+- [How to extract text from a PDF URL in Python](pdf-url-to-text/)
 
 ## Finding which ATS a company uses
 
